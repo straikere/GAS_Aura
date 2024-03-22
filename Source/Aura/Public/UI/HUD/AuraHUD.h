@@ -25,10 +25,10 @@ public:
 	TObjectPtr<UAuraUserWidget> OverlayWidget;
 
 	void InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS);
+	UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
 
 protected:
 
-	UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
 	
 private:
 	
